@@ -2,14 +2,14 @@
 project = 'pytorch' # either 'pytorch' or 'tensorflow', 'keras', 'incubator-mxnet' or 'caffe'.
 REPEAT_TIMES = [5, 10, 30]
 IncludeCommentsFromBugReports = False
-IncludeCodeSnippetsAndErrorLogsFromBugReports = True
+IncludeCodeSnippetsAndErrorLogsFromBugReports = False
 IncludeLabelsFromBugReports = False
 Method = 'BERTLogisticRegression' # either 'TFIDFNaiveBayes' or 'BERTLogisticRegression'
 
 
 RemoveHTMLTags = True
 RemoveEmoji = True
-RemoveStopWords = True
+RemoveStopWords = False
 CleanString = True
 
 UseGridSearchCVForBERTLR = False
