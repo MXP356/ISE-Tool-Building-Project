@@ -117,8 +117,6 @@ def clean_str(string):
     return string.strip().lower()
 
 ########## 3. Download & read data ##########
-import os
-import subprocess
 # Choose the project (options: 'pytorch', 'tensorflow', 'keras', 'incubator-mxnet', 'caffe')
 print('Reading Dataset CSV File...')
 path = f'datasets/{project}.csv'
